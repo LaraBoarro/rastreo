@@ -340,7 +340,7 @@ footer ul li a:hover {
     }
 
     .home {
-        background-position: center;
+        background-image: none;
         min-height: auto;
         padding: 10px;
     }
@@ -360,5 +360,13 @@ footer ul li a:hover {
 
     .box-contato {
         padding: 30px;
+    }
+
+    .box-home-infos h2 {
+        font-size: 44px;
+    }
+
+    .box-home-infos h2 {
+        font-size: 38px;
     }
 }
