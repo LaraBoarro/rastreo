@@ -1,0 +1,364 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+}
+
+.box-header-infos .bi {
+    color: #5a5a5a;
+}
+
+.box-header-infos h5 {
+    font-weight: 400;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+.box-header-infos h4 {
+    font-weight: 500;
+    color: #363636;
+    font-size: 14px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+}
+
+main {
+    padding-top: 150px;
+}
+
+.btn-new-style {
+    background-color: #F5D431;
+    color: #333;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 25px;
+}
+
+.btn-new-style:hover {
+    background-color: #ffd710;
+
+}
+
+.nav-item {
+    font-weight: 600;
+    color: #333;
+}
+
+.box-home-infos h3 {
+    font-size: 44px;
+    font-weight: 500;
+    letter-spacing: -2px;
+    color: #333;
+}
+
+.box-home-infos h3 span {
+    color: #2700AB;
+    font-weight: 700;
+}
+
+.box-home-infos h2 {
+    font-size: 54px;
+    font-weight: 500;
+    letter-spacing: -2px;
+    color: #333;
+}
+
+.box-home-infos h2 span {
+    color: #F5D431;
+    font-weight: 700;
+}
+
+.box-home-infos p {
+    color: #333333cc;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.home {
+    background-image: url('../imgs/fundohome.png');
+    background-size: cover;
+    background-position: right center;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.quemsomos {
+    padding: 40px 0 0;
+}
+
+.box-quemsomos-info {
+    padding: 50px 35px;
+    border-radius: 15px;
+   background: #2700AB;
+    background: -webkit-linear-gradient(180deg, rgba(39, 0, 171, 0.17) 0%, rgba(39, 0, 171, 0) 80%);
+    background: -moz-linear-gradient(180deg, rgba(39, 0, 171, 0.17) 0%, rgba(39, 0, 171, 0) 80%);
+    background: linear-gradient(180deg, rgba(39, 0, 171, 0.17) 0%, rgba(39, 0, 171, 0) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2700AB", endColorstr="#2700AB", GradientType=0);
+}
+
+.box-quemsomos-info h1 {
+    font-size: 42px;
+    letter-spacing: -2px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.box-quemsomos-info h1 span {
+    color: #2700AB;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.box-quemsomos-funcs {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.box-quemsomos-funcs h4 {
+    font-size: 20px;
+    color: #2700AB;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.box-quemsomos-funcs h4 span {
+    font-weight: 800;
+}
+
+.box-quemsomos-funcs p {
+    color: #616161;
+}
+
+.box-titles h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.funcionalidades {
+    padding: 3rem 0;
+}
+
+.box-titles h5 {
+    font-size: 18px;
+    color: #868686;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.box-funcs-infos {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 290px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.box-funcs-infos .content {
+    max-width: 235px;
+}
+
+.box-funcs-infos h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+.box-funcs-infos p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.cta h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #333;
+}
+
+.cta h1 span {
+    font-weight: 800;
+}
+
+
+.cta p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #5a5a5a;
+    margin-bottom: 40px;
+}
+
+.cta h5 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.cta {
+    background-image:url('../imgs/bgcta.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 610px;
+    display: flex;
+    align-items: center;
+}
+
+.contato {
+    background-image: url('../imgs/bgcontato.png');
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0;
+}
+
+.box-contato {
+    padding: 35px 50px;
+    background-color: #F5F7FF;
+    border-radius: 15px;
+}
+
+.box-contato h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.box-contato h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333cc;
+    margin-bottom: 40px;
+}
+
+.input-style {
+    padding: 13px 10px;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid transparent;
+    transition: all .4s;
+}
+
+
+.input-style:focus, .input-style:focus-visible {
+    outline: none;
+    border: 1px solid #2700AB;
+    transition: all .4s;
+}
+
+
+.input-style::placeholder {
+    opacity: .6;
+}
+
+.btn-blue {
+    width: 100%;
+    background-color: #2700AB;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer {
+    background-color: #181818;
+    padding: 2.5rem;
+}
+
+footer p {
+    opacity: .7;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+footer h4 {
+    font-size: 18px;
+    color: #ffffffe3;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer ul li {
+    padding: 5px 0;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #ffffffb0;
+    transition: all .3s;
+
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: #F5D431;
+    transition: all .3s;
+}
+
+@media (min-width:991px) {
+    .navbar-nav {
+        width: 70%;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+
+@media (max-width:990px) {
+    .navbar-nav {
+        padding: 10px;
+        border-top: 1px solid rgb(216, 216, 216);
+        margin-top: 20px;
+    }
+
+    header {
+        width: 100%;
+        z-index: 999;
+        background-color: white;
+        box-shadow: 0 0 20px #d3d3d3;
+        border-radius: 3px;
+    }
+
+    .home {
+        background-position: center;
+        min-height: auto;
+        padding: 10px;
+    }
+
+    main {
+        padding-top: 100px;
+    }
+
+    .box-funcs-infos {
+        background-position: left;
+    }
+
+    .cta {
+        background-position: left;
+        padding: 60px 20px;
+    }
+
+    .box-contato {
+        padding: 30px;
+    }
+}
